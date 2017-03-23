@@ -19,9 +19,9 @@ class ResultPrinter
     when 9..13
       return @data.results[4]
     when 4..8
-      return @data.results[4]
-    when 0..3
       return @data.results[5]
+    when 0..3
+      return @data.results[6]
     end
   end
 end
